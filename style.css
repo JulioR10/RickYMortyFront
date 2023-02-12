@@ -1,0 +1,57 @@
+body{
+    background-color: #00ffee;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+.character-container{
+    background-color: aliceblue;
+    max-width: 1600px;
+    width: 100%;
+    height: auto;
+    margin: 1 auto;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    position: relative;
+}
+
+.character-info{
+    background-color: antiquewhite;
+    width: 10%;
+    height: auto;    
+    margin: 33;
+    border: 1px solid #000000;
+    border-radius: 5%;
+    text-align: center;
+}
+
+button{
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+    width: 9%;
+    height: 60px;
+}
+
+#Pag{
+    position: absolute;
+    bottom: 170px;
+    right: 50px;
+    width: 9%;
+    height: 60px;
+}
+
+input{
+    position: absolute;
+    bottom: 110px;
+    right: 50px;
+    width: 9%;
+    height: 60px;
+}
